@@ -10,13 +10,15 @@ import { MenuComponent } from './menu/menu.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { EventsComponent } from './events/events.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { NotaMemberjoinNowComponent } from './nota-memberjoin-now/nota-memberjoin-now.component';
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     AboutUsComponent,
     EventsComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    NotaMemberjoinNowComponent
   ],
   imports: [
     BrowserModule,
