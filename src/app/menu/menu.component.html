@@ -7,10 +7,11 @@
         <ul>
           <li><a href="#">ABOUT US</a></li>
           <li><a routerLink="/event">EVENTS</a></li>
-          <li><a href="#">REGISTRATION</a></li>
+          <li><a routerLink="/registration">REGISTRATION</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
+      <!-- .nav-menu -->
       <div class="header-social-links">
         <a href="#"><i class="fa wp-icon fa-facebook-f fa-lg"></i></a>
         <a href="#"><i class="fa wp-icon fa-twitter fa-lg"></i></a>
@@ -19,6 +20,10 @@
 
     </div>
   </header><!-- End Header -->
+
+
+  
+  <button *ngIf="isShow" (click)="gotoTop()">👆</button>
 
 <!-- 
   <app-about-us></app-about-us>
